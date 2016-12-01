@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+    <link href="vendor/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="vendor/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />
+</head>
+<body>
+
+    <menu>
+        <menu-item name="Users"></menu-item>
+        <menu-item name="Task"></menu-item>
+        <menu-item name="Additional"></menu-item>
+        <menu-group name="Settings">
+            <menu-item name="General"></menu-item>
+            <menu-item name="Cost"></menu-item>
+        </menu-group>
+    </menu>
+
+    <script src="vendor/angular/angular.min.js"></script>
+    <script src="index.js"></script>
+    <script src="controllers/menu.controller.js"></script>
+    <script src="controllers/menu-group.controller.js"></script>
+    <script src="directives/menu.directive.js"></script>
+    <script src="directives/menu-item.directive.js"></script>
+    <script src="directives/menu-group.directive.js"></script>
+</body>
+</html>
